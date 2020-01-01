@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "app_1/base.html" %}
+
+
+{% block body_block %}
+    <h1> WELCOME TO INDEX! </h1>
+    <h2>This an example of INDEX inheritance !</h2>
+   <h3> {{ text| cut:'Hello' }}</h3>
+    <h4> {{ number|add:"99" }}</h4>
+    {% endblock%}
+ 
